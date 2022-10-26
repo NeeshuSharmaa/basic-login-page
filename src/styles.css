@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+button {
+  border-width: 0;
+  background-color: #d3d3d3;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+#user-page {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+#pass-page {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+#final-page {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+#username-output {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#password-output {
+  text-align: center;
+  font-size: 1.2rem;
+}
+#error-msg-next {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+#error-msg-submit {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
